@@ -1,0 +1,157 @@
+@font-face{
+    src:url(../fonts/bold.ttf);
+    font-family: 'bold';
+}
+.bg-img{
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background:linear-gradient(rgba(0,170,269,269));
+    width:100%;
+    height:900px;
+}
+nav .t-shadow{
+    text-shadow: 2px 2px 3px black;
+    
+}
+.main-content{
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;   
+}
+.underline{
+    border-bottom: 2px solid orange;
+    opacity: 0.7;
+}
+.text-button{
+    margin-top: 15px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none !important;
+}
+
+.button-reg{
+    margin-top: 30px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right:auto;
+    border: 1px solid wheat;
+    height: 36px;
+    width:110px;
+    color:wheat;
+    font-family: ubuntu;
+    transition: 1s all ease;
+   
+}
+.button-reg:hover{
+    background-color: wheat;
+    color:black;
+    font-family: ubuntu;
+}
+.card{
+    opacity: 0.8;
+    
+}
+/* Register page */
+    
+    .form-warp .card{
+        box-shadow: 5px 5px 6px black;
+    }
+/* Register page end */
+
+/* profile page */
+    .profile{
+        margin-top: 30px;
+    }
+    .profile .sidebar{
+        height: 500px;
+        background-color: #3B3C36;
+        border-radius: 7px;
+        position: relative;
+    }
+    .circle{
+        
+        margin-top: 30px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        position: absolute;
+        top:20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .detail{
+        
+        opacity: 0.9;
+        height: 350px;
+        position:relative;
+        top: 29%;
+    }
+    .name-box{
+        border: 1px solid wheat;
+        border-radius: 3px;
+        font-family: ubuntu;
+        width: 250px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    .bck-img{
+        background-image: url(../img/bck.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        border-radius: 7px;
+        position: relative;
+    }
+    .btnn{
+        width: 150px;
+        height: 45px;
+        border: 1px solid red;
+        position:absolute;
+        top:45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: aliceblue;
+        text-align: center;   
+        transition: 1s all ease;
+    }
+    .btnn:hover{
+        background-color: red;
+        opacity: 0.8;
+    }
+    .head-text{
+       text-align: center;
+    }
+/* profile page end */
+
+/* dashboard start */
+.dbody-side{
+    border-right: 2px dashed gray;
+    /* border-left: 1px dashed gray;
+    border-bottom: 1px dashed gray; */
+}
+.hov{
+    color:#343A40;
+    transition: 0.5s all ease;
+}
+.hov:hover{
+    color:coral;
+}
+/* dashboard end */
+/* member-form */
+    .form{
+        margin-left: 380px;
+        margin-top: 50px;
+    }
+/* member-form end */
+/* addash start */
+    .hov1{
+        color:#343A40;
+        transition: 0.5s all ease;
+    }
+    .hov1:hover{
+        color:forestgreen;
+    }
+/* addash end */
